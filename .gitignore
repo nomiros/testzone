@@ -1,0 +1,159 @@
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+#maven
+**/target/
+/target/
+*/target/*
+log/
+target/
+*.versionsBackup
+*.releaseBackup
+
+
+
+#eclipse
+.classpath
+.project
+.settings/
+
+
+# Compiled class file
+*.class
+
+
+# Log file
+*.log
+log/
+
+# automation stuff
+.idea
+*.iml
+
+*/automation/poc_pillar_one/tests/o
+*/automation/poc_pillar_two/tests/o
+*/automation/cpp_rest_api_tests_pillar/tests/o
+*/automation/cpp_rest_api_tests_pillar/tests/cpp_logs
+*/automation/*/__pycache__
+*/automation/*/.cache
+automation/**/__pycache__
+automation/**/.cache
+
+# system files
+.DS_Store
+
+# ui
+!/ui-plugins/**/.babelrc
+!/ui-plugins/**/.eslintrc
+!/ui-plugins/**/.npmignore
+!/ui-plugins/**/.npmrc
+target
+target/*
+*/target/*
+dist/
+ui-plugins/.npmcache/**
+ui-plugins/**/node_modules
+ui-plugins/**/report
+ui-plugins/**/coverage
+ui-plugins/**/package-lock.json
+ui-plugins/cpp/app/cpp/ui-config.json
+automation/**/node_modules
+ui-plugins/**/.nyc_output
+ui-plugins/**/coverage
+ui-plugins/**/__snapshots__
+ui-plugins/aca/app/mnt/package-lock.json
+automation/cpp_rest_api_tests_pillar/ISESimulator/ISESimulatorLib/__pycache__/__init__.cpython-36.pyc
+automation/cpp_rest_api_tests_pillar/ISESimulator/__pycache__/__init__.cpython-36.pyc
+automation/cpp_rest_api_tests_pillar/__pycache__/__init__.cpython-36.pyc
+jars/cpp-propogator/ise/test-output/bullet_point.png
+services/apolo/test-output/bullet_point.png
+jars/cpp-propogator/ise/test-output/old/Default suite/classes.html
+services/apolo/test-output/old/Default suite/classes.html
+jars/cpp-propogator/ise/test-output/collapseall.gif
+services/apolo/test-output/collapseall.gif
+automation/cpp_ui_tests_pillar/conftest__gab.py
+jars/cpp-propogator/ise/test-output/Default suite/Default test.html
+services/apolo/test-output/Default suite/Default test.html
+jars/cpp-propogator/ise/test-output/old/Default suite/Default test.properties
+services/apolo/test-output/old/Default suite/Default test.properties
+jars/cpp-propogator/ise/test-output/Default suite/Default test.xml
+services/apolo/test-output/Default suite/Default test.xml
+jars/cpp-propogator/ise/test-output/emailable-report.html
+services/apolo/test-output/emailable-report.html
+jars/cpp-propogator/ise/test-output/failed.png
+services/apolo/test-output/failed.png
+jars/cpp-propogator/ise/test-output/old/Default suite/groups.html
+services/apolo/test-output/old/Default suite/groups.html
+automation/clusters/HananCluster.json
+jars/cpp-propogator/ise/test-output/index.html
+jars/cpp-propogator/ise/test-output/old/Default suite/index.html
+jars/cpp-propogator/ise/test-output/old/index.html
+services/apolo/test-output/index.html
+services/apolo/test-output/old/Default suite/index.html
+jars/cpp-propogator/ise/test-output/old/Default suite/reporter-output.html
+services/apolo/test-output/old/Default suite/reporter-output.html
+automation/cpp_rest_api_tests_pillar/ISESimulator/ISESimulatorLib/__pycache__/req_handler.cpython-36.pyc
+automation/cpp_rest_api_tests_pillar/ISESimulator/ISESimulatorLib/__pycache__/resources_handler.cpython-36.pyc
+automation/cpp_rest_api_tests_pillar/ISESimulator/ISESimulatorLib/__pycache__/SGTs_req_handler.cpython-36.pyc
+jars/cpp-propogator/ise/test-output/skipped.png
+services/apolo/test-output/skipped.png
+automation/cpp_rest_api_tests_pillar/ISESimulator/ISESimulatorLib/__pycache__/SXPs_req_handler.cpython-36.pyc
+services/apolo/test-output/junitreports/TEST-com.cisco.apicem.apolo.storage.UICloudAttributeTest.xml
+jars/cpp-propogator/ise/test-output/junitreports/TEST-com.cisco.cpp.propogator.impl.ISEPropogatorTest.xml
+jars/cpp-propogator/ise/test-output/Default suite/testng-failed.xml
+jars/cpp-propogator/ise/test-output/testng-failed.xml
+services/apolo/test-output/Default suite/testng-failed.xml
+services/apolo/test-output/testng-failed.xml
+jars/cpp-propogator/ise/test-output/testng-reports.css
+services/apolo/test-output/testng-reports.css
+jars/cpp-propogator/ise/test-output/testng-reports.js
+services/apolo/test-output/testng-reports.js
+jars/cpp-propogator/ise/test-output/testng-results.xml
+services/apolo/test-output/testng-results.xml
+jars/cpp-propogator/ise/test-output/testng.css
+services/apolo/test-output/testng.css
+jars/cpp-propogator/ise/test-output/old/Default suite/testng.xml.html
+services/apolo/test-output/old/Default suite/testng.xml.html
+jars/cpp-propogator/ise/test-output/old/Default suite/toc.html
+services/apolo/test-output/old/Default suite/toc.html
+jars/cpp-propogator/ise/test-output/navigator-bullet.png
+services/apolo/test-output/navigator-bullet.png
+jars/cpp-propogator/ise/test-output/passed.png
+services/apolo/test-output/passed.png
+automation/cpp_rest_api_tests_pillar/ISESimulator/ISESimulatorLib/__pycache__/logs_handler.cpython-36.pyc
+jars/cpp-propogator/ise/test-output/old/Default suite/main.html
+services/apolo/test-output/old/Default suite/main.html
+jars/cpp-propogator/ise/test-output/old/Default suite/methods-alphabetical.html
+services/apolo/test-output/old/Default suite/methods-alphabetical.html
+jars/cpp-propogator/ise/test-output/old/Default suite/methods-not-run.html
+services/apolo/test-output/old/Default suite/methods-not-run.html
+jars/cpp-propogator/ise/test-output/old/Default suite/methods.html
+services/apolo/test-output/old/Default suite/methods.html
+dev/cpp-pkg-target/**
+ui-plugins/.npmrc
+ui-plugins/.npmcache/@babel/helper-module-imports/7.0.0-beta.38/package.tgz
+ui-plugins/.npmcache/@babel/helper-module-imports/7.0.0-beta.38/package/package.json
+ui-plugins/.npmcache/@babel/types/7.0.0-beta.38/package.tgz
+ui-plugins/.npmcache/@babel/types/7.0.0-beta.38/package/package.json
+ui-plugins/.npmcache/@cisco-dna/dpm/0.10.2/package.tgz
+ui-plugins/.npmcache/@cisco-dna/dpm/0.10.2/package/package.json
+ui-plugins/.npmcache/@cisco-dna/react-utils/0.5.0/package.tgz
+ui-plugins/.npmcache/@cisco-dna/react-utils/0.5.0/package/package.json
+ui-plugins/.npmcache/@cisco-dna/redux-utils/0.1.0/package.tgz
+ui-plugins/.npmcache/@cisco-dna/redux-utils/0.1.0/package/package.json
+ui-plugins/.npmcache/@types/inline-style-prefixer/3.0.1/package.tgz
+ui-plugins/.npmcache/@types/inline-style-prefixer/3.0.1/package/package.json
+ui-plugins/.npmcache/@types/node/9.3.0/package.tgz
+ui-plugins/.npmcache/@types/node/9.3.0/package/package.json
+ui-plugins/.npmcache/@types/react/16.0.35/package.tgz
+ui-plugins/.npmcache/@types/react/16.0.35/package/package.json
+ui-plugins/.npmcache/abab/1.0.4/package.tgz
+ui-plugins/.npmcache/abab/1.0.4/package/package.json
+ui-plugins/.npmcache/abbrev/1.0.9/package.tgz
+ui-plugins/.npmcache/abbrev/1.0.9/package/package.json
