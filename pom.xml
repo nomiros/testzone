@@ -4,10 +4,10 @@
 	<groupId>nomiros.dev.tz</groupId>
 	<artifactId>testzone-parent</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<name>testzone - parent-project</name>
+	<name>testzone-parent-project</name>
 	<packaging>pom</packaging>
 	<modules>
-		<module>intvq</module>
+		<module>intrvq</module>
 	</modules>
 
 	<dependencies>

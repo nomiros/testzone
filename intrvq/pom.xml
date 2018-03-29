@@ -5,7 +5,7 @@
     <artifactId>testzone-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>intvq</artifactId>
+  <artifactId>intrvq</artifactId>
   <name>interview-quiz</name>
   <description>intrvq impl using ddl</description>
 </project>
